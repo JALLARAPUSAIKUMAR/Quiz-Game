@@ -1,0 +1,62 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    }
+.login_div1 , .login_div2{
+    background-color: white;
+    padding:10px; 
+    float:none;
+    border-radius: 15px;
+    text-align:center;
+    
+}
+
+#player1_name_input , #player2_name_input
+{
+    display:inline-block;
+    margin-bottom:20px;
+    color:black;
+}
+
+#word
+{
+    width:60%;
+    
+}
+#word_display{
+    letter-spacing: :5px;
+    
+}
+#output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid lightblue;
+    padding: 10px;
+        float:none;
+    text-align: left;
+}
+.form-control{
+    background-color:navajowhite;
+}
+button[id="btn"]:hover{
+    background-color: blueviolet;
+    
+}
+#pass{
+    color:black;
+}
+#number1 , #number2
+
+{
+    color:black;
+}
+button[class='btn btn-info']:hover{
+    background-color:blueviolet;
+        
+}
+
+button[id='btnsend']:hover{
+    background-color:blueviolet;
+}
